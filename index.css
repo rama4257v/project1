@@ -1,0 +1,705 @@
+i{
+
+    color: orangered;
+}
+
+span{
+    color: rgb(196, 192, 188);
+}
+
+.iconcolor{
+    
+    margin-right: 5px;
+}
+
+.navsection{
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.homesection div{
+   justify-content: center;
+   text-align: center;
+   margin-bottom: 20px;
+  
+
+}
+
+.schbutton{
+    width: 120px;
+    height: 40px;
+    text-align: end;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.positionh1{
+    position: relative;
+    z-index: 1;
+    color: rgb(238, 241, 244);
+    bottom: 160px;
+    left: 50px;
+
+
+
+}
+
+.adj1{
+    position: relative;
+    right: -45px;
+    top: -18px;
+    background-color: orangered;
+    border-radius: 25px;
+    border-style: solid;
+  padding: 10px;
+  color: aliceblue;
+  border-color: black;
+}
+
+.firstbanner{
+    color: azure;
+   background-size: cover;
+    justify-content: center;
+    align-content: center;
+     height: 500px;
+     padding-left: 60px;
+     font-size: 30px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     animation: slider 8s ease 2s infinite;
+     margin-bottom: 20px;
+    }
+
+    @keyframes slider {
+     0%{
+         background-image: url("./images/banner-01.jpg");
+     }
+     50%{
+         background-image: url("./images/banner-02.jpg");
+     }
+
+     100%{
+         background-image: url("./images/banner-03.jpg");
+     }
+    }
+
+    .linkcard{
+       
+        width: 100%;
+        border-color: antiquewhite;
+        border-style: solid;
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    .featuredcard{
+        height: 470px;
+        width: 100%;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: -15px 15px 15px rgb(199, 191, 191);
+        margin-top: 10px;
+        margin-left: 0px;
+
+    }
+    .info{
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .featuredsection{
+        text-align: center;
+        justify-content:center;
+    }
+    .featuredimg{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .getclosersection{
+        background-image: url(./images/video-bg.jpg);
+        background-size: cover;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        height: 300px;
+        width: 100vw;
+    }
+
+    .videoimg{
+        position: relative;
+        bottom: 40px;
+       justify-self: center;
+       align-self: center;
+       text-align: center;
+       width: 100%;
+    }
+
+    .dotbutton{
+        width: 180px;
+        height: 50px;
+        background-color: rgb(238, 182, 162);
+        display: flex;
+       
+        justify-content: space-evenly;
+        text-align: center;
+        margin-bottom: 10px;
+        
+    }
+
+    .buttonsection{
+       text-align: center;
+       justify-content: center;
+       align-content: center;
+       margin-left: auto;
+       margin-right: auto;
+
+    }
+
+
+    .bestdealsection{
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(231, 241, 249);
+        width: 100vw;
+
+    }
+
+
+    .bdsbox1{
+        height: 350px;
+     
+        border-radius: 15px;
+        border-color: rgb(206, 214, 172);
+        background-color: aliceblue;
+        margin-left: 20px;
+        margin-right: 0px;
+      
+       
+    }
+
+    
+    .bd2 {
+        background-color: rgb(231, 241, 249);
+         display: flex;
+         justify-content:space-evenly ;
+    }
+        
+    
+    .bdimg{
+    height: 350px;
+  
+    }   
+    
+    .parabox{
+        
+    }
+
+    .adj2{
+        position: relative;
+        left: -158px;
+        top: 0px;
+        background-color: orangered;
+        border-radius: 25px;
+        border-style: solid;
+      padding: 10px;
+      color: aliceblue;
+      border-color: black;
+    }
+    
+    .iconbuttonn{
+                background-color: rgb(16, 16, 16);
+                color: rgb(237, 241, 245);
+                border-radius: 25px;
+                text-align: end;
+                width: 155px;
+                height: 36px;
+                margin-top: 0px;
+            margin-bottom: 20px;
+                margin-left: 30px;
+           
+                
+             }
+    
+    
+             
+    
+             .card1{
+        
+                      
+                    
+                border-style: solid;
+                border-color: rgb(211, 211, 231);
+                border-width: 2px;
+                justify-content: center;
+                text-align: center;
+                background-color: rgb(243, 242, 241);
+                box-shadow: -15px 0px 15px 0px rgb(202, 199, 199);
+                border-radius: 25px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+               
+           
+                }
+    
+                    .cardimg{
+        border-radius: 45px;
+        padding: 35px;
+    }
+    
+    .cardbutton{
+        color: black;
+        background-color: rgb(222, 194, 163);
+        border-width: 0px;
+        border-radius: 10px;
+    }
+    
+    .cardbutton2{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+        color: azure;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .getclosersection2{
+        background-image: url(./images/video-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        
+        padding-top: 50px;
+        align-content: start;
+        text-align: center;
+        margin-bottom: 0px;
+        
+        }
+    
+    
+    
+    
+    
+    
+      
+    
+    .gcb2{
+            width: 200px;
+            height: 60px;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            display: flex;
+            text-align: center;
+            justify-content: space-evenly;
+            border-radius: 15px;
+            margin-top: 45px;
+            margin-right: 20px;
+            position:relative;
+            box-shadow: -15px 0px 15px 0px rgb(202, 199, 199);
+            margin-bottom: 40px;
+        }
+    
+    .footerbutton{
+       
+      
+    }
+    
+    .formbox{
+        width: 350px;
+        border-color: brown;
+    
+        padding: 20px;
+        box-shadow: -15px 15px 15px 5px rgb(149, 146, 146);
+        border-radius: 25px;
+        margin-bottom: 30px;
+        background-color: aliceblue;
+    }
+    .lastbutton{
+            
+        background-color: rgb(12, 12, 12);
+        border-radius: 25px;
+        color: azure;
+        margin-top: 20px;
+    }
+    
+    .lastsection{
+        
+    }
+    
+    .lastbar{
+        width: 100%; 
+        justify-content: center; 
+        align-content: center; 
+        text-align: center; 
+        background-color: black; 
+        color: aliceblue;
+    }
+
+
+    .dot{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: orangered;
+        position: relative;
+        left: 160px;
+        bottom: 70px;
+    }
+
+    
+    
+
+   
+
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:420px) {
+
+body{
+    overflow-x: hidden;
+}
+    .homesection {
+        display: flex;
+      
+    margin-bottom: 5px;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+
+    }
+
+
+    .positionh1{
+        position: relative;
+        z-index: 1;
+        color: rgb(238, 241, 244);
+        bottom: 460px;
+        left: 80px;
+    
+    }
+
+    .firstbanner{
+        color: azure;
+       background-size: cover;
+       justify-content: center;
+    align-items: center;
+         height: 500px;
+         padding-left: 60px;
+         font-size: 30px;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         animation: slider 8s ease 2s infinite;
+        }
+
+        @keyframes slider {
+         0%{
+             background-image: url("./images/banner-01.jpg");
+         }
+         50%{
+             background-image: url("./images/banner-02.jpg");
+         }
+
+         100%{
+             background-image: url("./images/banner-03.jpg");
+         }
+        }
+
+        .schbutton{
+            width: 120px;
+            height: 40px;
+            text-align: end;
+            border-radius: 15px;
+        }
+
+        .adj1{
+            position: relative;
+            right: -40px;
+            top: -18px;
+            background-color: orangered;
+            border-radius: 25px;
+            border-style: solid;
+          padding: 10px;
+          color: aliceblue;
+          border-color: black;
+        }
+
+        .linkcard{
+       
+            width: 410px;
+            border-color: antiquewhite;
+            border-style: solid;
+            padding: 15px;
+            border-radius: 25px;
+        }
+    
+        .featuredcard{
+            height: 470px;
+            width: 230px;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: -15px 15px 15px rgb(199, 191, 191);
+            margin: 10px;
+           
+    
+        }
+        .info{
+            display: flex;
+            justify-content: space-evenly
+        }
+    
+        .featuredsection{
+            justify-content: space-evenly;
+            display: flex;
+        }
+
+        .getclosersection{
+            background-image: url(./images/video-bg.jpg);
+            background-size: cover;
+            text-align: center;
+            align-content: center;
+            justify-content: center;
+            height: 300px;
+            width: 100vw;
+        }
+
+        .videoimg{
+            position: relative;
+            bottom: 40px;
+           justify-self: center;
+           align-self: center;
+           text-align: center;
+
+        }
+
+        .dotbutton{
+            width: 180px;
+            height: 50px;
+            background-color: rgb(238, 182, 162);
+            display: flex;
+            justify-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+            
+        }
+
+        .buttonsection{
+            display: flex;
+            justify-content: space-evenly;
+            border-radius: 15px;
+        }
+
+        .bestdealsection{
+            text-align: center;
+            justify-content: center;
+            background-color: rgb(231, 241, 249);
+            background-size: contain;
+            width: 100vw;
+        }
+    
+
+
+        .bdsbox1{
+            height: 350px;
+           
+            border-radius: 15px;
+            border-color: rgb(206, 214, 172);
+            background-color: aliceblue;
+            margin-left: 20px;
+            margin-right: 30px;
+          
+           
+        }
+
+        
+
+      
+        
+        .bds1 {
+           
+             display: flex;
+             justify-content:space-between ;
+            
+        
+        }
+
+        .bds2 {
+           
+            display: flex;
+            justify-content:space-evenly ;
+            margin: 20px;
+           
+       
+       }
+
+        .bdimg{
+            height: 350px;
+            width: 300px;
+          
+            }   
+        
+        .parabox{
+         
+          margin-left: 30px;
+          width:300px;
+         
+        }
+
+
+        
+        .iconbuttonn{
+                    background-color: rgb(16, 16, 16);
+                    color: aliceblue;
+                    border-radius: 25px;
+                    text-align: end;
+                    width: 155px;
+                    height: 36px;
+                    margin-top: 0px;
+                    margin-bottom: 20px;
+                 }
+
+
+                 .adj2{
+                    position: relative;
+                    left: -158px;
+                    top: 0px;
+                    background-color: orangered;
+                    border-radius: 25px;
+                    border-style: solid;
+                  padding: 10px;
+                  color: aliceblue;
+                  border-color: black;
+                }
+        
+        
+                 
+        
+                .card1{
+        
+                      
+                    
+                    border-style: solid;
+                    border-color: rgb(211, 211, 231);
+                    border-width: 2px;
+                    justify-content: center;
+                    text-align: center;
+                    background-color: rgb(243, 242, 241);
+                    box-shadow: -15px 0px 15px 0px rgb(202, 199, 199);
+                    border-radius: 25px;
+                    width: 300px;
+                    
+        
+               
+                    }
+        
+                        .cardimg{
+            border-radius: 45px;
+            padding: 35px;
+        }
+        
+        .cardbutton{
+            color: black;
+            background-color: rgb(222, 194, 163);
+            border-width: 0px;
+            border-radius: 10px;
+        }
+        
+        .cardbutton2{
+            margin-left: auto;
+            margin-right: auto;
+            background-color: black;
+        }
+        
+        
+        
+        
+        .cardsection2{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        
+        .gcb2{
+                width: 200px;
+                height: 80px;
+                background-color: rgb(255, 255, 255);
+                padding: 1rem;
+                display: flex;
+                text-align: center;
+                justify-content: space-between;
+                border-radius: 15px;
+                margin-top: 45px;
+                margin-right: 20px;
+                position:relative;
+                box-shadow: -15px 0px 15px 0px rgb(202, 199, 199);
+            }
+        
+        .footerbutton{
+            display: flex;
+            justify-content: center;
+                
+        }
+        
+        .formbox{
+            width: 350px;
+            border-color: brown;
+        
+            padding: 20px;
+            box-shadow: -15px 15px 15px 5px rgb(149, 146, 146);
+            border-radius: 25px;
+            margin-bottom: 30px;
+            background-color: aliceblue;
+        }
+        .lastbutton{
+            
+            background-color: rgb(12, 12, 12);
+            border-radius: 25px;
+            color: azure;
+            margin-top: 20px;
+        }
+        
+        .lastsection{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .lastbar{
+            width: 100%; 
+            justify-content: center; 
+            align-content: center; 
+            text-align: center; 
+            background-color: black; 
+            color: aliceblue;
+        }
+
+        .dot{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: orangered;
+            position: relative;
+            left: -100px;
+            bottom: 10px;
+        }
+
+
+        
+            
+
+    
+}
